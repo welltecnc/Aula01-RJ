@@ -6,6 +6,8 @@
 // valor "Fiap" 
 // pare/continue ;
 // metódo apresentar console.log()
+// typeof = verifica o tipo da variavel
+// nomenclaturas
 
 var nome = "Fiap";
 console.log(typeof nome);
@@ -33,4 +35,14 @@ console.log(typeof array)
 
 let idade=true;
 console.log(typeof idade)
+
+// Métodos de Exibição
+
+// alert("Bem-vindo ao nosso Sistema")
+
+// let nomeDev = prompt("Qual o Nome do Dev?");
+// console.log(`Olá, ${nomeDev}!`)
+
+// let desejaContinuar = confirm("Deseja realmente continuar ?");
+// console.log("Resposta da confirmação",desejaContinuar)
 

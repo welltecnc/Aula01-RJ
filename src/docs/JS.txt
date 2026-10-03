@@ -1,0 +1,21 @@
+Javascript - Uma linguagem de Programação
+1995- Brendan Eich
+
+Curiosidades:
+
+Primeiro nome  Mocha
+Segundo nome LiveScript
+Terceiro nome JasvaScript
+
+JAVASCRIPT não tem nada ver com JAVA
+JAVASCRIPT é uma linguagem Case Sensitive
+JAVASCRIPT não é necessário tipar váriaveis e sim declarar(var,let,const)
+JAVASCRIPT não é preciso de compilador para executar seus scripts
+
+JAVASCRIPT criar eventos, ler, escrever e validar.
+
+UTILIZAÇÃO:
+
+INLINE
+INTERNO
+EXTERNO

@@ -19,3 +19,11 @@ UTILIZAÇÃO:
 INLINE
 INTERNO
 EXTERNO
+
+Nomenclaturas
+
+nomeUsuario = Camel Case
+NomeUsuario = Pascal Case
+nome-usuario = Kebab Case
+nome_usuario = Snake Case
+nome_tipo_usuario = Screaming Snake Case

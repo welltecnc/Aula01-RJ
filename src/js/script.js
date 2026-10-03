@@ -46,3 +46,41 @@ console.log(typeof idade)
 // let desejaContinuar = confirm("Deseja realmente continuar ?");
 // console.log("Resposta da confirmação",desejaContinuar)
 
+// OPERADORES ARTIMÉTICOS
+
+let soma = 10 + 5;
+console.log(soma);
+
+let multiplicar = 5 * 8;
+console.log(multiplicar);
+
+let subtrair = 30-20;
+console.log(subtrair)
+
+let divisao = 20 / 5;
+console.log(divisao)
+
+let resto = 10 % 3 ;
+console.log(resto)
+
+// OPERADORES COMPARAÇÃO
+
+// == compara o valor
+// === compara e valor verifica o tipo da variavel
+// >  maior
+// <  menor
+// <=  menor igual
+// >= maior igual
+// != diferente
+
+
+
+let a= 10;
+let b= 5;
+
+console.log(a == b);
+console.log(a === b);
+console.log( a > b);
+console.log(a < b);
+console.log ( a < 100);
+console.log ( a != b);

@@ -1,0 +1,121 @@
+Git Bash - Ferramenta de versionamento de código
+
+Criado por Linux Torvalds em 2002
+
+GitHub- Plataforma de Hospodagem de código
+criado em 2008 -TOM, CRIS, PJ E SCOTT
+
+Em 2018 - foi comprado pela Microsoft por 7 Bilhões
+
+  Listar diretórios	ls
+  Criar diretório	mkdir aula
+  entrar no diretório 	cd aula
+  voltar diretorio	cd ..
+  Criar arquivo (vazio)	touch arquivo.txt
+  Renomear arquivo 	mv antigo.txt novo.txt
+  Renomear diretório	mv pastaAntiga pastaNova
+  Apagar arquivos	rm arquivo.txt
+  Apagar diretório 	rmdir pastaNova
+  limpar Tela		clear
+
+
+NO TERMINAL DO GIT BASH
+
+ENTRAR NO DESKTOP
+
+cd desktop
+
+CRIAR A PASTA VIA COMANDO
+
+ mkdir NomeDaPasta
+
+ABRIR A PASTA DENTRO DO VSCODE
+
+ entra na pasta e no terminal digita:
+
+ code .
+
+INICIA O GIT
+
+git init
+
+VERIFICA SE TEM USUARIO
+git config  user.name
+
+CONFIGURAR O USUARIO 
+git config  user.name "NOME"
+
+VERIFICA SE TEM E EMAIL
+git config  user.email
+
+CONFIGURA O EMAIL
+git config  user.email email@email.com
+
+VERIFICA A SITUAÇÃO DO GIT 
+
+git status
+
+ADICIONA O ARQUIVO OU ALTERAÇÃO 
+
+git add .
+
+REALIZA O COMMIT COM UMA MENSAGEM
+
+git commit -m "mensagem do que realizou"
+
+VERIFICA OS COMMITS FEITOS
+
+git log
+
+CRIAR O REPOSITÓRIO- PÚBLICO NO GIT HUB 
+
+Copiar as 3 linhas e colar no terminal
+
+VERIFICA SE O PROJETO SUBIU NO GitHub
+
+NO TERMINAL VERIFICAR BRANCHS
+
+git branch
+
+NO TERMINAL CRIAR UMA BRANCH NOVA
+
+git checkout -b dev
+
+NA BRANCH DEV REALIZAR AS ALTERAÇÕES NO  CÓDIGO
+
+git add .
+
+git commit -m "chore: Mensagem"
+
+TROCAR DE BRANCH
+
+git checkout main
+
+TRAZER TUDO DA BRANCH DEV PARA MAIN
+
+git merge dev
+
+git push
+
+
+
+Os commits semânticos são um padrão amplamente utilizado para dar significado e clareza às mensagens de commit, facilitando a automação de changelogs, o versionamento semântico e a colaboração em equipe.
+
+
+feat (funcionalidade): Indica a adição de uma nova funcionalidade para o usuário
+fix (Correção): Utilizado para a correção de um bug no código.
+
+docs (Documentação): Mudanças na documentação (como arquivos README, guias, comentários no código, etc.), sem alterar código de produção.
+
+style (Estilização): Alterações que não afetam o significado do código (espaços em branco, formatação, ponto e vírgula ausente, etc.), apenas estética.
+
+refactor (Refatoração): Alterações no código que não corrigem bugs nem adicionam funcionalidades, mas melhoram a estrutura, legibilidade ou desempenho (ex: limpeza de código duplicado).
+
+perf (Performance): Mudanças focadas especificamente na melhoria de performance ou otimização do sistema.
+
+test (Tests): Adição ou correção de testes unitários, de integração
+
+chore (Manutenção):Criar ou Configurar Tarefas de manutenção geral que não alteram arquivos de código de produção ou testes (ex:criação de estrutura e configuração dos arquivos, atualização de dependências no package.json, ajustes em arquivos de build ou configuração de CI/CD).
+
+
+

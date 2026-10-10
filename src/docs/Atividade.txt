@@ -1,0 +1,45 @@
+Criar uma aplicação web interativa para uma Loja de Esportes utilizando HTML, CSS e JavaScript,utilizando a estrutura de pastas e versionamento(GitBash e GitHub) aplicar conceitos de manipulação do DOM, eventos (addEventListener), laços de repetição (do/while) e criação dinâmica de elementos visuais.
+Estilização com css externo.
+
+O sistema da loja deverá conter os seguintes componentes e comportamentos interativos:
+
+****** Cabeçalho e Identidade (Header) ******
+Alteração de Nome: Incluir um campo de texto (input) e um botão para que o usuário possa alterar dinamicamente o Novo Nome da Loja exibido no cabeçalho principal da página.
+
+****** Gerenciamento de Corredores (Estoque) ******
+
+Seleção de Corredor: Um campo numérico para escolher o corredor de 1 a 3.
+
+Categorias Iniciais dos Corredores:
+Corredor 1: Futebol e Chuteiras
+Corredor 2: Basquete & Tênis
+Corredor 3: Fitness & Acessórios
+
+Atualização Dinâmica: Um campo para digitar o Novo Produto no Corredor e um botão para atualizar o corredor selecionado em tempo real na listagem de Corredores Atuais.
+
+****** Busca por Categoria de Esporte ******
+
+Consulta via Índice: Um campo numérico para o usuário digitar um número correspondente e consultar a categoria desejada.
+
+Opções de Categorias Cadastradas:
+
+Futebol
+Basquete
+Tênis
+
+Exibição: Um elemento de resultado para mostrar dinamicamente o nome da categoria selecionada na tela.
+
+****** Destaque do Mês e Funcionário em Destaque ******
+
+Geração de Imagem: Um botão interativo com o rótulo "Gerar Imagem do Funcionário". Ao clicar, a aplicação deve verificar se a imagem já foi gerada e, caso contrário, criar e inserir dinamicamente no DOM um elemento de imagem (<img>) representando o funcionário/destaque do mês, aplicando estilos visuais (como bordas arredondadas e largura máxima).
+
+
+****** Mês de Promoção (Lotes Promocionais) ******
+Seleção do Mês: Um campo/seção para definir o Mês da Promoção vigente.
+
+Gerador de Cupom / Lote (do/while): Um botão interativo que utiliza um laço de repetição do/while em JavaScript para gerar um código promocional exclusivo (combinando letras e números) e atualizar o box de exemplo com cores de destaque e estilo dinâmico.
+
+ ******Rodapé (Footer)  ******
+
+Informações de Rodapé: Um rodapé fixo ao final da página contendo informações institucionais, direitos reservados.
+

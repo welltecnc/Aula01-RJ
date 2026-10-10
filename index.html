@@ -13,7 +13,85 @@
     <!-- Declaração com Evento INLINE -->
     <!-- <button onclick="alert('teste')">Clique</button> -->
 
-    <h1 id="titulo">Titulo</h1>
+    <header>
+            <h1 id="titulo">Titulo</h1>
+    </header>
+    
+    <main>
+       
+        <section>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"/>
+            </p>
+                <button type="submit" onclick="mudar()">Alterar</button>
+        </section>
+
+        <hr>
+        <section>
+            <h2>Classificação Brasileirão</h2>
+            <p>Primeiro Colocado:<span class="time"></span></p>
+            <p>Segundo Colocado: <span class="time"></span></p>
+            <p>Terceiro Colocado:<span class="time"></span></p>
+
+            <p>
+                <label for="novo">Novo Classificado:</label>
+                <input type="text" id="novo" name="novo">
+            </p>
+            <p>
+                <label for="posicao">Posição</label>
+                <input type="number"min="1" max="3" id="posicao" name="posicao">
+            </p>
+            <button type="submit" onclick="adicionarTime()">Adicionar</button>
+        </section>
+        <hr>
+
+        <section>
+            <h2>Calendário</h2>
+            <ul>
+                <li>Janeiro</li>
+                <li>Fevereiro</li>
+                <li>Março</li>
+                <li>Abril</li>
+                <li>Maio</li>
+                <li>Junho</li>
+            </ul>
+
+            <p>
+                <label for="numeromes">Escolha um mês:</label>
+                <input type="number" min="1" max="6" id="numeromes" >
+            </p>
+            <p>
+                <button type="submit" onclick="mostrar()">Mostrar</button>
+                <p>Mês Escolhido: <span id="resultado"></span></p>
+            </p>
+        </section>
+
+        <section>
+            <h2>Eventos Javascript</h2>
+            <button type="submit" id="btnmsg">Clique aqui</button>
+
+        </section>
+
+        <section>
+            <p>
+                <div id="exemplo"></div>
+            </p>
+        </section>
+
+        <section>
+            <h2>Criando uma imagem</h2>
+            <button type="submit" id="btnCriarImg">Gerar Imagem</button>
+            <div id="containerImagem"></div>
+        </section>
+
+    
+
+    </main>
+
+
+
+
 
     <!-- DECLARAÇÃO EXTERNA -->
      <script src="./src/js/script.js"></script>

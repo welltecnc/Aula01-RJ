@@ -96,5 +96,75 @@
 // DOM (Document Object Model- Modelo de Objeto de Documento) 
 // No final dos anos 90 a W3C criou esse conceito para dar mais dinâmica nas páginas web
 
-document.getElementById("titulo").innerText="XpTO"
+document.getElementById("titulo").innerText="TÍTULO"
 
+// Função Mudar
+function mudar(){
+    let novoNome =document.getElementById("nome");
+    let titulo= document.getElementById("titulo");
+    titulo.innerHTML = novoNome.value;
+}
+
+//  função Adicionar
+function adicionarTime(){
+    let numero = document.getElementById("posicao").value -1;
+    let novoTime = document.getElementById("novo").value;
+    document.getElementsByClassName("time")[numero].innerHTML = novoTime;
+}
+
+//Arrow Function - mostrar
+
+const mostrar =()=>{
+    let num = document.getElementById("numeromes").value;
+    let mes = document.getElementsByTagName("li")[num].innerHTML;
+    document.getElementById("resultado").innerHTML=mes;
+}
+
+let botao = document.querySelector("#btnmsg");
+botao.addEventListener("click", Clicou)
+botao.addEventListener("mouseenter",Entrou)
+
+
+function Clicou(){
+    botao.innerHTML="Você clicou";
+}
+function Entrou(){
+    botao.innerHTML=" Você passou o mouse"
+}
+
+
+
+let result ="";
+let i=0;
+
+do{
+    i +=1;
+    result += i+ "";
+}while (i < 5);
+document.getElementById("exemplo").innerHTML= result
+document.getElementById("exemplo").style.background = "#000";
+document.getElementById("exemplo").style.color = "#FF0";
+
+
+let botaoImagem = document.querySelector("#btnCriarImg")
+let container = document.querySelector("#containerImagem")
+
+botaoImagem.addEventListener("click", function(){
+    if(document.getElementById("minhaImagem")){
+        alert("Imagem já foi gerada")
+        return;
+    }
+
+    let novaImagem = document.createElement("img");
+
+    novaImagem.id= "minhaImagem";
+    novaImagem.src="/src/assets/imagem2.jpg";
+    novaImagem.alt= "imagem de cabana"
+
+    novaImagem.style.width="400px";
+    novaImagem.style.borderRadius="10px"
+    novaImagem.style.marginTop ="15px"
+    novaImagem.style.display="block"
+
+    container.appendChild(novaImagem)
+})

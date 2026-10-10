@@ -9,32 +9,32 @@
 // typeof = verifica o tipo da variavel
 // nomenclaturas
 
-var nome = "Fiap";
-console.log(typeof nome);
+// var nome = "Fiap";
+// console.log(typeof nome);
 
-let nomeUsuario ="Cidade";
-console.log( typeof nomeUsuario);
+// let nomeUsuario ="Cidade";
+// console.log( typeof nomeUsuario);
 
-const usuario ="teste";
-console.log(typeof usuario);
+// const usuario ="teste";
+// console.log(typeof usuario);
 
-let nome1;
-console.log(typeof nome1)
+// let nome1;
+// console.log(typeof nome1)
 
-let nome2=null;
-console.log(typeof nome2)
+// let nome2=null;
+// console.log(typeof nome2)
 
-let numero=10;
-console.log(typeof numero)
+// let numero=10;
+// console.log(typeof numero)
 
-let lista ={nome:"cidade",idade:20}
-console.log(typeof lista)
+// let lista ={nome:"cidade",idade:20}
+// console.log(typeof lista)
 
-let array=[];
-console.log(typeof array)
+// let array=[];
+// console.log(typeof array)
 
-let idade=true;
-console.log(typeof idade)
+// let idade=true;
+// console.log(typeof idade)
 
 // Métodos de Exibição
 
@@ -48,20 +48,20 @@ console.log(typeof idade)
 
 // OPERADORES ARTIMÉTICOS
 
-let soma = 10 + 5;
-console.log(soma);
+// let soma = 10 + 5;
+// console.log(soma);
 
-let multiplicar = 5 * 8;
-console.log(multiplicar);
+// let multiplicar = 5 * 8;
+// console.log(multiplicar);
 
-let subtrair = 30-20;
-console.log(subtrair)
+// let subtrair = 30-20;
+// console.log(subtrair)
 
-let divisao = 20 / 5;
-console.log(divisao)
+// let divisao = 20 / 5;
+// console.log(divisao)
 
-let resto = 10 % 3 ;
-console.log(resto)
+// let resto = 10 % 3 ;
+// console.log(resto)
 
 // OPERADORES COMPARAÇÃO
 
@@ -75,12 +75,26 @@ console.log(resto)
 
 
 
-let a= 10;
-let b= 5;
+// let a= 10;
+// let b= 5;
 
-console.log(a == b);
-console.log(a === b);
-console.log( a > b);
-console.log(a < b);
-console.log ( a < 100);
-console.log ( a != b);
+// console.log(a == b);
+// console.log(a === b);
+// console.log( a > b);
+// console.log(a < b);
+// console.log ( a < 100);
+// console.log ( a != b);
+
+// //OPERADORES LÓGICOS ( &&, || |= ,!=)
+
+// let temIdade = 18;
+// let temCarteiraHab =false;
+
+// let podeDirigir= (temIdade >=18) && temCarteiraHab;
+// console.log("O Usuario pode dirigir:", podeDirigir);
+
+// DOM (Document Object Model- Modelo de Objeto de Documento) 
+// No final dos anos 90 a W3C criou esse conceito para dar mais dinâmica nas páginas web
+
+document.getElementById("titulo").innerText="XpTO"
+
